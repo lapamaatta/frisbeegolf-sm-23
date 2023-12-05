@@ -1,0 +1,111 @@
+.img-with-text {
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+}
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    display: inline-block;
+    text-align: center;
+    width: 33.33%;
+    padding: 2px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.column + .column {
+    margin-left: -5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    width: 40%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Cherry Bomb One', cursive;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+caption{
+    font-family: 'Cherry Bomb One', cursive;
+    color: #da8bb5;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(34, 0, 31), 0 0 25px rgb(205, 89, 216), 0 0 5px rgb(179, 8, 164);
+}
+
+h1{
+    font-family: 'Cherry Bomb One', cursive;
+    color: #b698e2;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 1px 1px 2px rgb(24, 0, 34), 0 0 25px rgb(153, 0, 255), 0 0 5px rgb(124, 0, 155);
+}
+
+h2{
+    font-family: 'Cherry Bomb One', cursive;
+    color: #da8bb5;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px rgb(34, 0, 31), 0 0 25px rgb(205, 89, 216), 0 0 5px rgb(179, 8, 164);
+}
+
+p{
+    font-family: 'Cherry Bomb One', cursive;
+    color: #77c7b4;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+img{
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px black;
+}
+
+img:hover{
+    transition: 0.6s ease;
+    opacity: 0.6;
+}
+
+body{
+    margin: 0;
+    background-image: url(forest.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+hr.someClass {
+    background-color: white;
+    height: 3px;
+}
+
+.linkki:hover {
+    opacity: 0.6;
+}
